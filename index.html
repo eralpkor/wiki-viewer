@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Wiever</title>
+	<meta charset="utf-8">
+			<!-- TO WORK WITH SMALL DEVICES AND RESPONSIBLE PAGES -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  
+	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<div class="container">
+		<a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Click On Wiki Image to Get Random Page" target="_blank" href="https://en.wikipedia.org/wiki/Special:Random"><img id="wiki-image" src="img/wiki-logo.png" alt="wiki logo"></a>
+	</div>
+
+	 <div class="gap"></div>
+
+	 <div class="container">
+    <div class="row">
+      <div class="col l10 m12 s12">
+        <input id="searchTerm" type="search" class="input left-align" placeholder="Enter Your Search Here...">
+
+      </div>
+      
+      <div class="col l2 m12 s12">
+        <button id="wikiSearch" class=" btn blue-grey lighten-1 waves-effect waves-light">Search</button>
+      </div>
+      
+    </div>
+    </div>
+
+  </div>
+	<div class="search-box container">
+		 <ul id="output" class="collapsible popout" data-collapsible="accordion">
+    <!-- <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li> -->
+  </ul>
+	</div>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/wiki.js"></script>
+</body>
+</html>

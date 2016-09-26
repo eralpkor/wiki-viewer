@@ -1,0 +1,102 @@
+body{
+	background: lightcyan;
+}
+#wiki-image{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 300px;
+	width: auto;
+	margin-top: 50px;
+}
+.search-box{
+	margin-top: 50px;
+}
+.collapsible-body p {
+    background: white;
+}
+.gap{
+	height: 100px;
+}
+#searchTerm{
+	color: black;
+}
+input[type=search]{
+	margin:0 0 100px 100px;
+	width: 75%;
+}
+button{
+	margin-top: 23px;
+	margin-left: -50px;
+}
+.container{
+	margin-top: 20px;
+}
+               /********* SMALL DEVICES ***********/
+               /*************** Extra small devices 767 **********/ 
+
+@media (max-width: 400px){
+   input[type=search]{
+	margin:0 10px 10px 50px;
+	width: 70%;
+	text-align: center;
+}
+	.btn{
+		height: 25px;
+		line-height: 5px;
+	}
+	button{
+	margin-left: 35%;
+	margin-top: 5px;
+}
+		#wiki-image{
+	height: 140px;
+	margin-top: 10px;
+}
+		.search-box{
+	margin-top: 10px;
+}
+	.gap{
+		height: 10px;
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 767px){
+  input[type=search]{
+	margin:0 10px 10px 60px;
+	width: 70%;
+	text-align: center;
+}
+	.btn{
+		height: 25px;
+		line-height: 5px;
+	}
+	button{
+	margin-left: 45%;
+	margin-top: 5px;
+}
+		#wiki-image{
+	height: 140px;
+	margin-top: 10px;
+}
+		.search-box{
+	margin-top: 10px;
+}
+	.gap{
+		height: 20px;
+	}
+}
+}
+/********** Small devices only *********/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+     input[type=search]{
+	margin:0 0 100px 100px;
+	width: 85%;
+}
+button{
+	margin-left: 75%;
+	margin-top: 5px;
+}
+	.gap{
+		height: 0px;
+	}
+}
